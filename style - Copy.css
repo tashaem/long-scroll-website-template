@@ -1,0 +1,76 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+.row {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+}
+
+
+.textDiv {
+	width: 50%;
+	display: flex;
+	align-items: center;
+}
+
+.mediaDiv {
+	width: 50%;
+	overflow: hidden;
+}
+
+
+#logo {
+	position: absolute;
+	width: 15%;
+	top: 5%;
+	left: 5%;
+}
+
+.imgMedia{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: 20% 80%;
+	transition: all 0.8s ease;
+}
+
+
+.imgMedia:hover {
+	transform: scale(1.3,1.3);
+}
+
+	
+h1 {
+	text-align: left;
+	font-size: 300%;
+	padding-top: 20%;
+}
+
+
+h1, h2, p, button {
+	padding: 1% 1%;
+	margin: 2% 10%;
+}
+
+h2{
+	font-size: 200%;
+}
+
+
+p {
+	text-align: justify;
+}
+
+
+button {
+	background-color: black;
+	color: white;
+	border-radius: 20px;
+	border: 0;
+	font-size: 80%;
+	padding: 2% 3%;
+	font-family: 'Montserrat', sans-serif;
+}
